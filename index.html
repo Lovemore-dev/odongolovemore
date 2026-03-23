@@ -1,73 +1,332 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odongo Lovemore | Full-Stack Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Odongo Lovemore, a Full-Stack Software Engineer specializing in JavaScript, Node.js, and Vue.js. Graduate of Refactory Academy."
+    />
+    <meta
+      name="keywords"
+      content="Odongo Lovemore, Software Engineer, Full-Stack Developer, JavaScript, Node.js, Vue.js, Refactory Academy, Uganda"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/Lovemore-dev" />
+    <meta
+      property="og:title"
+      content="Odongo Lovemore | Full-Stack Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Full-Stack Software Engineer specializing in modern web technologies including Vue.js and Node.js."
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://via.placeholder.com/32x32?text=OL"
+    />
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odongo Lovemore | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">OL</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
 
-<body>
-    <header>
-        <h1>Odongo Lovemore</h1>
-        <p>Aspiring Software Developer & Cybersecuity Professional</p>
+    <header class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Odongo <span class="highlight">Lovemore</span></h1>
+          <p class="subtitle">Full-Stack Software Engineer</p>
+          <p class="description">
+            IT Graduate and Refactory Academy Alumnus. I build scalable,
+            user-centric web applications using modern technologies.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Let's Talk</a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/Lovemore-dev"
+              target="_blank"
+              title="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/odongo-lovemore-212b9928a"
+              target="_blank"
+              title="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="mailto:lovemoreodongo97@gmail.com" title="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <!-- <i class="fas fa-code"></i> -->
+            <img
+              src="./myprofile.png"
+              alt="Odongo Lovemore"
+              style="height: 4em; width: 4em; border-radius: 15%"
+            />
+          </div>
+        </div>
+      </div>
     </header>
 
-    <section id="About">
-        <h2>About Me</h2>
-        <p>I am a passionate IT graduate from Kumi University with strong interest in we development and cybersecurity.
-            I enjoy building practical solutions. </p>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>HTML </li>
-            <li>CSS </li>
-            <li>JavaScript</li>
-            <li>Django (Python)</li>
-            <li>MySQL</li>
-            <li>Java</li>
-            <li>Git basic</li>
-            <li>Cybersecuity Fundamentals</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Alumni Management System</h3>
-            <p>A web based system to manage alumni records, events, job listings, and mentorship. Built with Django,
-                HTML, CSS, JavaScript, and SQLite</p>
-            <a href="https://github.com/Lovemore-dev/alumni-management-system.git"> View on GitHub</a>
+    <main class="container">
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
         </div>
-
-        <div class="project">
-            <h3>Personal Portfolio Website</h3>
-            <p>This website showcases my projects, skills, and contact information for potential collaborations</p>
-            <a href="https://github.com/Lovemore-dev/Website.git"> Visit my site</a>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a passionate Software Engineer and an IT graduate from Kumi
+              University. Following my degree, I underwent intensive full-stack
+              development training at <strong>Refactory Academy</strong>, where
+              I specialized in modern JavaScript ecosystems.
+            </p>
+            <p>
+              I thrive on building practical, efficient solutions using Vue.js
+              for the frontend and Node.js for the backend. My approach combines
+              technical precision with a focus on delivering high-quality user
+              experiences.
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:lovemoreodongo97@gmai.com">lovemoreodongo97@gmail.com</a></p>
-        <p>Phone: <a href="tel:+256778743945">+256778743945</a></p>
-        <p>LinkedIn: <a
-                href="https:///www.linkedin.com/in/odongo-lovemore-212b9928a?utm_source=share_via&utm_content=profile&utm_medium=android_app">Odongo
-                Lovemore</a>
+      <section id="skills" class="section">
+        <div class="section-header">
+          <h2>Technical Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">Bootstrap 5</span>
+              <span class="skill-tag">HTML5 & CSS3</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend & Database</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQLite</span>
+              <span class="skill-tag">Django (Python)</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Version Control</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">NPM</span>
+              <span class="skill-tag">Postman</span>
+              <span class="skill-tag">Agile Methodology</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-users"></i></div>
+            <div class="project-info">
+              <h3>Students' Result Management System</h3>
+              <p>
+                A web-based system to manage students' results. Built with PHP,
+                HTML, CSS, JavaScript, and MySQL.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Lovemore-dev/Online-Students-Result-Management-System.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="project-info">
+              <h3>Alumni Management System</h3>
+              <p>
+                A web-based system to manage alumni records, events, job
+                listings, and mentorship. Built with Django, HTML, CSS,
+                JavaScript, and SQLite.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Lovemore-dev/alumni-management-system.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="project-info">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A modern, professional showcase of my projects, skills, and
+                contact information for potential collaborations.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Lovemore-dev/Website.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-users"></i></div>
+            <div class="project-info">
+              <h3>Karibu Groceries Limited Management System</h3>
+              <p>
+                This is an individual project done as a requirement for the
+                Ready4IT Certificate In Software Engineering with JavaScript. It
+                implements a software solution to help KGL in their business
+                endeavors. It required me to implement the use of all skills and
+                technologies that is being taught in the course such as Html,
+                CSS, JavaScript, Node.js,Vue.js and MongoDB
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Lovemore-dev/Karibu-Groceries-LTD-Management-System.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View full Code</a
+                >
+                &nbsp;
+                <a
+                  href="https://github.com/Lovemore-dev/KGL-Frontend.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View Vue.js Code</a
+                >
+                <a
+                  href="https://github.com/Lovemore-dev/KGL-Backend.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> View Node.js Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:lovemoreodongo97@gmail.com"
+                    >lovemoreodongo97@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+256778743945">+256 778 743 945</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/odongo-lovemore-212b9928a"
+                    target="_blank"
+                    >Odongo Lovemore</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <h4>GitHub</h4>
+                <p>
+                  <a href="https://github.com/Lovemore-dev" target="_blank"
+                    >Lovemore-dev</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Odongo Lovemore. Built with passion &
+          precision.
         </p>
-        <p>GitHub: <a href="https://github.com/Lovemore-dev">github.com/Lovemore-dev</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; <span id="year"></span> Odongo Lovemore | All Rights Reserved</p>
+      </div>
     </footer>
 
-</body>
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+    <script src="script.js"></script>
+  </body>
 </html>
